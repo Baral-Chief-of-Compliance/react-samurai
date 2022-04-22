@@ -5,6 +5,9 @@ const Post = () => {
   return(
         <div className={s.item}>
           post 1
+          <div>
+            <span>like</span>
+          </div>
         </div>
   )
 }
