@@ -13,10 +13,12 @@ const App = (props) => {
         <Header />
         <Navbar />
         <div className="app-wrapper-content">
-            <Routes>
-                <Route path='/dialogs' element = {<Dialogs />} />
-                <Route path='/profile' element = {<Profile />} />
-            </Routes>
+            <Router>
+                <Routes>
+                    <Route path='/dialogs' element = {<Dialogs />} />
+                    <Route path='/profile' element = {<Profile />} />
+                </Routes>
+            </Router>
         </div>
       </div>
 
