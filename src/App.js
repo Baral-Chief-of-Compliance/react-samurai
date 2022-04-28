@@ -13,6 +13,7 @@ import './App.css';
 const App = (props) => {
   return (
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div className='app-wrapper'>
         <Header />
         <Navbar />
@@ -26,11 +27,16 @@ const App = (props) => {
         </div>
       </div>
 =======
+=======
+>>>>>>> 801b5488fb7c408c11ef0d4820bc7b41926d41a1
       <Router>
           <div className='app-wrapper'>
               <Header />
               <Navbar />
               <div className="app-wrapper-content">
+<<<<<<< HEAD
+>>>>>>> 801b5488fb7c408c11ef0d4820bc7b41926d41a1
+=======
 >>>>>>> 801b5488fb7c408c11ef0d4820bc7b41926d41a1
 
                   <Routes>
