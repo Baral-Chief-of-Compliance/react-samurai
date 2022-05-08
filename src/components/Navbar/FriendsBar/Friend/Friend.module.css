@@ -1,0 +1,11 @@
+.img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
